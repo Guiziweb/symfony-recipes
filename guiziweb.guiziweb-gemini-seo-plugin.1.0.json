@@ -1,0 +1,15 @@
+{
+  "manifests": {
+    "guiziweb/guiziweb-gemini-seo-plugin": {
+      "manifest": {
+        "bundles": {
+          "Guiziweb\\GeminiSeoPlugin\\GuiziwebGeminiSeoPlugin": ["all"]
+        },
+        "copy-from-package": {
+          "recipe/config/": "%CONFIG_DIR%/"
+        }
+      },
+      "ref": "a6c23a07571c20357e222f06735fdf7a20571895"
+    }
+  }
+}

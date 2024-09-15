@@ -12,3 +12,4 @@
     "recipe_template": "https://api.github.com/repos/Guiziweb/symfony-recipes/contents/{package_dotted}.{version}.json"
   }
 }
+
