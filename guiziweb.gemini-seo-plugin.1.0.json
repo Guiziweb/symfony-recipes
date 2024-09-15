@@ -1,6 +1,6 @@
 {
   "manifests": {
-    "guiziweb/guiziweb-gemini-seo-plugin": {
+    "guiziweb/gemini-seo-plugin": {
       "manifest": {
         "bundles": {
           "Guiziweb\\GeminiSeoPlugin\\GuiziwebGeminiSeoPlugin": ["all"]
