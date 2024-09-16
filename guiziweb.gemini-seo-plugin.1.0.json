@@ -11,6 +11,9 @@
         },
         "env": {
           "GEMINI_API_KEY": "SET_YOUR_GEMINI_API_KEY"
+        },
+        "composer-scripts": {
+          "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
         }
       },
       "ref": "a6c23a07571c20357e222f06735fdf7a20571897"
