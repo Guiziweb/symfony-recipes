@@ -3,7 +3,8 @@
     "guiziweb/gemini-seo-plugin": {
       "manifest": {
         "bundles": {
-          "Guiziweb\\GeminiSeoPlugin\\GuiziwebGeminiSeoPlugin": ["all"]
+          "Guiziweb\\GeminiSeoPlugin\\GuiziwebGeminiSeoPlugin": ["all"],
+          "Gemini\\Symfony\\GeminiBundle::class " : ["all"]
         },
         "copy-from-package": {
           "recipe/config/": "%CONFIG_DIR%/"
