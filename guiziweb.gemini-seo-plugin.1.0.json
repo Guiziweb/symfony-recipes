@@ -7,13 +7,13 @@
           "Gemini\\Symfony\\GeminiBundle" : ["all"]
         },
         "copy-from-package": {
-          "recipe/config/": "%CONFIG_DIR%/"
+          "config/": "%CONFIG_DIR%/"
         },
         "env": {
           "GEMINI_API_KEY": "SET_YOUR_GEMINI_API_KEY"
         }
       },
-      "ref": "a6c23a07571c20357e222f06735fdf7a20571896"
+      "ref": "a6c23a07571c20357e222f06735fdf7a20571897"
     }
   }
 }
