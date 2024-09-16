@@ -1,0 +1,3 @@
+ * Your plugin is almost ready:
+    1. Create your first API key at <comment>https://aistudio.google.com/app/apikey</>
+    2. Update the <info>GEMINI_API_KEY</> env var in <comment>.env</>

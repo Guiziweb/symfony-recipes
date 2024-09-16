@@ -16,7 +16,7 @@
           "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
         }
       },
-      "ref": "a6c23a07571c20357e222f06735fdf7a20571897"
+      "ref": "a6c23a07571c20357e222f06735fdf7a20571898"
     }
   }
 }
