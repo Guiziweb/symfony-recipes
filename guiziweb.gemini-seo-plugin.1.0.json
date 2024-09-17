@@ -3,8 +3,7 @@
     "guiziweb/gemini-seo-plugin": {
       "manifest": {
         "bundles": {
-          "Guiziweb\\GeminiSeoPlugin\\GuiziwebGeminiSeoPlugin": ["all"],
-          "Gemini\\Symfony\\GeminiBundle" : ["all"]
+          "Guiziweb\\GeminiSeoPlugin\\GuiziwebGeminiSeoPlugin": ["all"]
         },
         "copy-from-package": {
           "config/": "%CONFIG_DIR%/"
@@ -16,7 +15,7 @@
           "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
         }
       },
-      "ref": "a6c23a07571c20357e222f06735fdf7a20571898"
+      "ref": "a6c23a07571c20357e222f06735fdf7a20571899"
     }
   }
 }
