@@ -1,0 +1,28 @@
+{
+  "manifests": {
+    "guiziweb/sylius-recommendations-ai-plugin": {
+      "manifest": {
+        "bundles": {
+          "Guiziweb\\SyliusRecommendationsAiPlugin\\GuiziwebSyliusRecommendationsAiPlugin": ["all"]
+        },
+        "env": {
+          "GOOGLE_PROJECT_ID": "SET_YOUR_PROJECT_ID",
+          "GOOGLE_LOCATION": "global",
+          "GOOGLE_CATALOG": "default_catalog",
+          "GOOGLE_BRANCH": "default_branch"
+        }
+      },
+      "files": {
+        "config/packages/guiziweb_sylius_recommendations_ai_plugin.yaml": {
+          "contents": [
+            "imports:",
+            "    - { resource: \"@GuiziwebSyliusRecommendationsAiPlugin/Resources/config/config.yaml\" }",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "a6c23a07571c20357e222f06735fdf7a20571899"
+    }
+  }
+}

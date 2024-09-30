@@ -1,14 +1,15 @@
 {
   "recipes": {
-    "guiziweb/gemini-seo-plugin": [
+    "guiziweb/sylius-recommendations-ai-plugin": [
       "1.0"
     ]
   },
-  "branch": "flex/main",
+  "branch": "main",
   "is_contrib": true,
   "_links": {
     "repository": "github.com/Guiziweb/symfony-recipes",
-    "origin_template": "{package}:{version}@github.com/Guiziweb/symfony-recipes:flex/main",
-    "recipe_template": "https://api.github.com/repos/Guiziweb/symfony-recipes/contents/{package_dotted}.{version}.json?ref=flex/main"
+    "origin_template": "{package}:{version}@github.com/Guiziweb/symfony-recipes:main",
+    "recipe_template": "https://raw.githubusercontent.com/Guiziweb/symfony-recipes/flex/main/{package_dotted}.{version}.json",
+    "recipe_template_relative": "{package_dotted}.{version}.json"
   }
 }
