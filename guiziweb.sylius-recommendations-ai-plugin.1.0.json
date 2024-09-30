@@ -5,6 +5,9 @@
         "bundles": {
           "Guiziweb\\SyliusRecommendationsAiPlugin\\GuiziwebSyliusRecommendationsAiPlugin": ["all"]
         },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        },
         "env": {
           "GOOGLE_PROJECT_ID": "SET_YOUR_PROJECT_ID",
           "GOOGLE_LOCATION": "global",
@@ -22,7 +25,7 @@
           "executable": false
         }
       },
-      "ref": "a6c23a07571c20357e222f06735fdf7a20571899"
+      "ref": "a6c23a07571c20357e222f06735fdf7a20571819"
     }
   }
 }
