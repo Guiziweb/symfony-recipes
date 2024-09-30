@@ -1,0 +1,7 @@
+{
+  "manifest": {
+    "bundles": {
+      "Guiziweb\\SyliusRecommendationsAiPlugin\\GuiziwebSyliusRecommendationsAiPlugin": ["all"]
+    }
+  }
+}

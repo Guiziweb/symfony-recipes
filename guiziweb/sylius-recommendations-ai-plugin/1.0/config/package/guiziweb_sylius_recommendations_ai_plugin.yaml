@@ -1,0 +1,2 @@
+imports:
+    - { resource: "@GuiziwebSyliusRecommendationsAiPlugin/Resources/config/config.yaml" }
